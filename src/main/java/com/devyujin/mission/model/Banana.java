@@ -7,6 +7,30 @@ public class Banana implements Peelable {
     private int ripeness;
     private double price;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getRipeness() {
+        return ripeness;
+    }
+
+    public void setRipeness(int ripeness) {
+        this.ripeness = ripeness;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     public Banana(String name, int ripeness, double price) {
         this.name = name;
         this.ripeness = ripeness;

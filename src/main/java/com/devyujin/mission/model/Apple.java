@@ -15,10 +15,34 @@ public class Apple implements Cuttable {
 
     @Override
     public String cut() {
-        if (color.equals("red")) {
+        if (color.equals("빨간색")) {
             return "익은 " + name + " 껍질을 깎습니다.";
         } else {
             return "덜 익은 " + name + " 껍질을 깎습니다.";
         }
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
     }
 }
