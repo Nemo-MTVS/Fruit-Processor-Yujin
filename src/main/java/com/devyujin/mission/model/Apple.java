@@ -1,6 +1,6 @@
 package com.devyujin.mission.model;
 
-import com.devyujin.mission.service.Cuttable;
+import com.devyujin.mission.interfaces.Cuttable;
 
 public class Apple implements Cuttable {
     private String name;

@@ -1,6 +1,6 @@
 package com.devyujin.mission.model;
 
-import com.devyujin.mission.service.Peelable;
+import com.devyujin.mission.interfaces.Peelable;
 
 public class Banana implements Peelable {
     private String name;

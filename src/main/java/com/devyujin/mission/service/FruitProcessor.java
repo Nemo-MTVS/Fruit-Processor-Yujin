@@ -1,6 +1,6 @@
 package com.devyujin.mission.service;
 
-import com.devyujin.mission.ProcessingResult;
+import com.devyujin.mission.interfaces.Peelable;
 
 public class FruitProcessor<T extends Peelable> {
     private T fruit;

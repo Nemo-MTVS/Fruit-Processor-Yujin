@@ -1,4 +1,4 @@
-package com.devyujin.mission;
+package com.devyujin.mission.service;
 
 public class ProcessingResult<T> {
     private T fruit;
